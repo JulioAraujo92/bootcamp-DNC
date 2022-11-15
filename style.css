@@ -174,5 +174,139 @@
                 margin-top:50px;
                 cursor:pointer;
             }
+       
+            /* Rodapé do Site*/
+
+            footer {
+                background-color: var(--azulDNC);
+                width: 100%;
+
+            }
+
+            .linha1 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+                font-family: var(--fontePadrao);
+                color:white;
+            }
+
+            footer ul {
+                list-style: none;
+                margin:0px;
+                padding: 0px;
+            }
+
+            footer ul li {
+                font-weight: 600;
+                font-size: 20px;
+                font-family: var(--fontePadrao);
+                margin: 30px 0px 30px 0px;
+            }
+            
+            footer nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 450px;
+                
+            }
+
+            footer h5 {
+                font-weight: 800;
+                font-size: 20px;
+                background-color: var(--pretoDNC);
+                border-radius: 10px;
+                padding: 10px; 
+                margin-bottom: 10px;
+            }
+            .endereco {
+                font-family: var(--fontePadrao);
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 35px;
+            }
+
+            footer ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            footer ul li a:hover {
+                color:var(--cinzaDNC);
+            }
+
+            .linha2 {
+                font-family: var(--fontePadrao);
+                font-size: 20px;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                padding-bottom: 30px;
+
+            }
+
+            .linha2 a{
+                text-decoration: none;
+                color: white;
+                padding: 0px 10px 0px 10px;
+            }
+
+            footer .linha2 a:hover {
+                color:var(--cinzaDNC)
+            }
+
+            footer .linha2 a:first-child {
+                border-right: 3px solid white;
+
+            }
+
+@media only screen and (max-width: 600px) {
+
+    #principal{
+        flex-direction: column;
+        height: auto
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #menu a{
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+
+    #principal button {
+        width: 100%;
+        margin: 0px;
+    }
+
+    section h1 {
+        font-size: 38px;
+
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 20px;
+    }
+    .checkboxItens label {
+        font-size: 17px;
+    }
+
+    
+
+}
 
         
