@@ -226,6 +226,7 @@
                 font-weight: 600;
                 font-size: 20px;
                 line-height: 35px;
+                width: 25%;
             }
 
             footer ul li a {
@@ -305,7 +306,16 @@
         font-size: 17px;
     }
 
-    
+    footer .linha1 {
+        flex-direction: column;
+    }
+
+    footer .endereco {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+
 
 }
 
